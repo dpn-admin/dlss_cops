@@ -1,2 +1,2 @@
 inherit_from:
-  - ./config/dlss_baseline.yml
+  - ./config/dpn_baseline.yml

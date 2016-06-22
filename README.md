@@ -1,25 +1,25 @@
-# DlssCops
+# DpnCops
 
-DlssCops is a Rubocop configuration gem that holds DLSS's baseline Ruby style guide.
-See https://github.com/sul-dlss/DeveloperPlaybook/tree/master/style for more information about the DLSS style.
-See https://github.com/bbatsov/rubocop for more information about Rubocop.
+DpnCops is a Rubocop configuration gem that holds DPN's baseline Ruby style guide. See https://github.com/bbatsov/rubocop for more information about Rubocop.
+
+This style guide adapted from a [DLSS style guide](https://github.com/sul-dlss/DeveloperPlaybook/tree/master/style).
 
 ## Installation
 
-We recommend you use the latest version of DlssCops but if needed, you can
+We recommend you use the latest version of DpnCops but if needed, you can
 select a specific version to manage change.  
 
 Add a development_dependency in your gem's gemspec file
 
 ```ruby
-  gemspec.add_development_dependency 'dlss_cops'
+  gemspec.add_development_dependency 'dpn_cops'
 ```
 
 OR, if it's not a gem, add these lines to your Gemfile:
 
 ```ruby
 group :development, :test do
-  gem 'dlss_cops'
+  gem 'dpn_cops'
 end
 ```
 
@@ -29,7 +29,7 @@ Set up your .rubocop.yml file:
 
 ```yaml
 inherit_gem:
-  dlss_cops: "config/dlss_baseline.yml"
+  dpn_cops: "config/dpn_baseline.yml"
 
 AllCops:
   TargetRubyVersion: 2.2
@@ -37,4 +37,4 @@ AllCops:
 
 Then you can launch rubocop via: `bundle exec rubocop <options>`
 
-See https://github.com/bbatsov/rubocop#basic-usage  for more information.
+See https://github.com/bbatsov/rubocop#basic-usage for more information.

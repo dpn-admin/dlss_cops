@@ -23,7 +23,7 @@ AllCops:
 Rails:
   Enabled: true
 
-# DLSS configuration changes for these cops enabled by default in Rubocop
+# DPN configuration changes for these cops enabled by default in Rubocop
 
 Metrics/AbcSize:
   Max: 20
@@ -61,8 +61,8 @@ RSpec/ExampleWording:
   IgnoredWords:
     - only
 
-# DLSS explicitly disabling these cops enabled by default in Rubocop
-# (DLSS agrees they should be disabled, or we disagree about whether they should be enabled)
+# DPN explicitly disabling these cops enabled by default in Rubocop
+# (DPN agrees they should be disabled, or we disagree about whether they should be enabled)
 
 Style/AccessModifierIndentation:
   Enabled: false
