@@ -1,3 +1,6 @@
+
+[![Gem Version](https://badge.fury.io/rb/dpn_cops.svg)](https://badge.fury.io/rb/dpn_cops)
+
 # DpnCops
 
 DpnCops is a Rubocop configuration gem that holds DPN's baseline Ruby style guide. See https://github.com/bbatsov/rubocop for more information about Rubocop.
